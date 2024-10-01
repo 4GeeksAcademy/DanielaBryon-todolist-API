@@ -10,3 +10,53 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+ul {
+    border-bottom: 1px solid lightgray;
+    list-style-type: none;
+    padding: 14px;
+    text-align: center;
+}
+.container.todo h1 {
+    font-size: 70px;
+    font-weight: 100;
+    font-style: normal;
+}
+.container.tasks {
+    color: #000000;
+    font-weight: 100;
+    font-style: normal;    background-color: #fefefe;
+    border: 1px solid lightgray;
+    width: 500px;
+    padding: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 
+    0px 10px 0 -5px #EEE, 0px 10px 1px -4px rgba(0, 0, 0, 0.15), 0px 20px 0 -10px #EEE, 0 20px 1px -8px rgba(0, 0, 0, 0.15);
+}
+.container.todo{
+    text-align: center;
+    padding: 14px;
+    margin-top: 20px;
+}
+.newTask{
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 496px;
+    text-align: center;
+}
+.fa-solid {
+    display: inline;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.footer {
+    font-size: 10px;
+    display: flex;
+    margin-left: 14px;
+}
+input{
+    width: 500px;
+}
+button {
+    margin: 14px
+}
